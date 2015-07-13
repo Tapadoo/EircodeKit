@@ -4,9 +4,11 @@ EircodeKit
 EircodeKit is an open source library, written in Swift to access the Autoaddress Eircode API
 This API is documented at [The Autoaddress Developer Center](https://www.autoaddress.ie/support/developer-centre/api)
 
+This edition is written by [Tapadoo](http://tapadoo.com)
+
 The repository consists of a single XCode project with the main API code in EircodeAPI.swift, and sample unit tests in EircodeKitTests.swift
 
-# Using EircodeKit
+## Using EircodeKit
 See the unit tests file for examples, but using EircodeKit is straight forward
 1. Obtain a developer key from Autoaddress by visiting their developer center. You have to fill out a form to request a key
 2. The key needs to be supplied when initialising the EircodeAPI object:
@@ -23,8 +25,9 @@ The data is returned in the completion handler as AnyObject?, which will typical
 We've not parsed the individual dictionaries, but a full breakdown of the returned data is suppled on the Autoaddress site.
 
 This software is supplied open source. See the LICENSE file for details.
-
-# Future Enhancements
+## Compatibilty
+This was written using XCode 7 Beta, with Swift 2.0. We haven't seen if it will compile in 6.4
+## Future Enhancements
 We encourage people to branch and make pull requests. For example, parsing the returned data for each API call is something that could improve this API
 
 All errors, enhancements and feedback to [Tapadoo](mailto:feedback@tapadoo.com)
