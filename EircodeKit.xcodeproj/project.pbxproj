@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3BD7CD31B54050800E1C334 /* EircodeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BD7CD21B54050800E1C334 /* EircodeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BD7CDA1B54050800E1C334 /* EircodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD7CCF1B54050800E1C334 /* EircodeKit.framework */; };
+		F3BD7CDF1B54050800E1C334 /* EircodeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD7CDE1B54050800E1C334 /* EircodeKitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BD7CDB1B54050800E1C334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BD7CC61B54050800E1C334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BD7CCE1B54050800E1C334;
+			remoteInfo = EircodeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3BD7CCF1B54050800E1C334 /* EircodeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EircodeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD7CD21B54050800E1C334 /* EircodeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EircodeKit.h; sourceTree = "<group>"; };
+		F3BD7CD41B54050800E1C334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BD7CD91B54050800E1C334 /* EircodeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EircodeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BD7CDE1B54050800E1C334 /* EircodeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EircodeKitTests.swift; sourceTree = "<group>"; };
+		F3BD7CE01B54050800E1C334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BD7CCB1B54050800E1C334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BD7CD61B54050800E1C334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BD7CDA1B54050800E1C334 /* EircodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3BD7CC51B54050800E1C334 = {
+			isa = PBXGroup;
+			children = (
+				F3BD7CD11B54050800E1C334 /* EircodeKit */,
+				F3BD7CDD1B54050800E1C334 /* EircodeKitTests */,
+				F3BD7CD01B54050800E1C334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BD7CD01B54050800E1C334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD7CCF1B54050800E1C334 /* EircodeKit.framework */,
+				F3BD7CD91B54050800E1C334 /* EircodeKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BD7CD11B54050800E1C334 /* EircodeKit */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD7CD21B54050800E1C334 /* EircodeKit.h */,
+				F3BD7CD41B54050800E1C334 /* Info.plist */,
+			);
+			path = EircodeKit;
+			sourceTree = "<group>";
+		};
+		F3BD7CDD1B54050800E1C334 /* EircodeKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD7CDE1B54050800E1C334 /* EircodeKitTests.swift */,
+				F3BD7CE01B54050800E1C334 /* Info.plist */,
+			);
+			path = EircodeKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F3BD7CCC1B54050800E1C334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BD7CD31B54050800E1C334 /* EircodeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F3BD7CCE1B54050800E1C334 /* EircodeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BD7CE31B54050800E1C334 /* Build configuration list for PBXNativeTarget "EircodeKit" */;
+			buildPhases = (
+				F3BD7CCA1B54050800E1C334 /* Sources */,
+				F3BD7CCB1B54050800E1C334 /* Frameworks */,
+				F3BD7CCC1B54050800E1C334 /* Headers */,
+				F3BD7CCD1B54050800E1C334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EircodeKit;
+			productName = EircodeKit;
+			productReference = F3BD7CCF1B54050800E1C334 /* EircodeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3BD7CD81B54050800E1C334 /* EircodeKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BD7CE61B54050800E1C334 /* Build configuration list for PBXNativeTarget "EircodeKitTests" */;
+			buildPhases = (
+				F3BD7CD51B54050800E1C334 /* Sources */,
+				F3BD7CD61B54050800E1C334 /* Frameworks */,
+				F3BD7CD71B54050800E1C334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BD7CDC1B54050800E1C334 /* PBXTargetDependency */,
+			);
+			name = EircodeKitTests;
+			productName = EircodeKitTests;
+			productReference = F3BD7CD91B54050800E1C334 /* EircodeKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BD7CC61B54050800E1C334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Tapadoo;
+				TargetAttributes = {
+					F3BD7CCE1B54050800E1C334 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F3BD7CD81B54050800E1C334 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F3BD7CC91B54050800E1C334 /* Build configuration list for PBXProject "EircodeKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3BD7CC51B54050800E1C334;
+			productRefGroup = F3BD7CD01B54050800E1C334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BD7CCE1B54050800E1C334 /* EircodeKit */,
+				F3BD7CD81B54050800E1C334 /* EircodeKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BD7CCD1B54050800E1C334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BD7CD71B54050800E1C334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BD7CCA1B54050800E1C334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BD7CD51B54050800E1C334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BD7CDF1B54050800E1C334 /* EircodeKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BD7CDC1B54050800E1C334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BD7CCE1B54050800E1C334 /* EircodeKit */;
+			targetProxy = F3BD7CDB1B54050800E1C334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3BD7CE11B54050800E1C334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3BD7CE21B54050800E1C334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3BD7CE41B54050800E1C334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EircodeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapadoo.EircodeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F3BD7CE51B54050800E1C334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EircodeKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapadoo.EircodeKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F3BD7CE71B54050800E1C334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EircodeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapadoo.EircodeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3BD7CE81B54050800E1C334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EircodeKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tapadoo.EircodeKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BD7CC91B54050800E1C334 /* Build configuration list for PBXProject "EircodeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BD7CE11B54050800E1C334 /* Debug */,
+				F3BD7CE21B54050800E1C334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BD7CE31B54050800E1C334 /* Build configuration list for PBXNativeTarget "EircodeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BD7CE41B54050800E1C334 /* Debug */,
+				F3BD7CE51B54050800E1C334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3BD7CE61B54050800E1C334 /* Build configuration list for PBXNativeTarget "EircodeKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BD7CE71B54050800E1C334 /* Debug */,
+				F3BD7CE81B54050800E1C334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BD7CC61B54050800E1C334 /* Project object */;
+}
