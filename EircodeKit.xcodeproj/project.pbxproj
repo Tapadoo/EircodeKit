@@ -10,6 +10,7 @@
 		F3BD7CD31B54050800E1C334 /* EircodeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BD7CD21B54050800E1C334 /* EircodeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3BD7CDA1B54050800E1C334 /* EircodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD7CCF1B54050800E1C334 /* EircodeKit.framework */; };
 		F3BD7CDF1B54050800E1C334 /* EircodeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD7CDE1B54050800E1C334 /* EircodeKitTests.swift */; };
+		F3BD7CEA1B54051B00E1C334 /* EircodeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BD7CE91B54051B00E1C334 /* EircodeAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F3BD7CD91B54050800E1C334 /* EircodeKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EircodeKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BD7CDE1B54050800E1C334 /* EircodeKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EircodeKitTests.swift; sourceTree = "<group>"; };
 		F3BD7CE01B54050800E1C334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BD7CE91B54051B00E1C334 /* EircodeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EircodeAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F3BD7CD21B54050800E1C334 /* EircodeKit.h */,
 				F3BD7CD41B54050800E1C334 /* Info.plist */,
+				F3BD7CE91B54051B00E1C334 /* EircodeAPI.swift */,
 			);
 			path = EircodeKit;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 		F3BD7CC61B54050800E1C334 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Tapadoo;
 				TargetAttributes = {
@@ -193,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BD7CEA1B54051B00E1C334 /* EircodeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +312,7 @@
 		F3BD7CE41B54050800E1C334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,12 +323,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tapadoo.EircodeKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F3BD7CE51B54050800E1C334 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
